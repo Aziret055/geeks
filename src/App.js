@@ -14,7 +14,6 @@ function App() {
 	useEffect(() => {
 		getProduct()
 	}, [])
-	console.log(datas, 'datas')
 	return (
 		<div className='App'>
 			<div className='header container'>
